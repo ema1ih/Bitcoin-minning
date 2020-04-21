@@ -54,10 +54,10 @@ print('Cazul 2:')
 print('Nonce2 start: ', randomVal)
 print('Numar testari: ', testsNo)
 if succes == 0:
-    print("Succes: NU");
+    print('Succes: NU');
     print('Nonce2: -')
     print('Hash2: -')
 else:
-    print("Succes: DA");
+    print('Succes: DA');
     print('Nonce2: ', nonce2)
     print('Hash2: ', binascii.hexlify(hash[::-1]).decode('utf-8'))
