@@ -26,7 +26,7 @@ while nonce1 < 3100000000:
 
     if hash[::-1] < target_str:
         print('Cazul 1:')
-        print('Nonce1: ', nonce1)
+        print('Nonce1: ', nonce1, '(', hex(nonce1), ')')
         print('Block Hash: ', binascii.hexlify(hash[::-1]).decode('utf-8'))
 
         print('Primele 5 valori hash: ')
